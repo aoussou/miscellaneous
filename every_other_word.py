@@ -44,12 +44,14 @@ but _ _ _ _ _ _  for him who loveth the _ _ _ _ _  world. The _ _ _ _ _  is but
 
 '''
 
-#text = input('Input your text here: ') 
-text = """It is not for him to pride himself who loveth his own country, but
-rather for him who loveth the whole world. The earth is but one country, and 
-mankind its citizens."""
+text = input('''Input your text here. If you want to use the above example
+just press ENTER: ''') 
 
-#text = input('Input your text here: ') 
+if text == '':
+
+   text = """It is not for him to pride himself who loveth his own country, 
+    but rather for him who loveth the whole world. The earth is but one 
+    country, and mankind its citizens."""
 
 # Choose what words don't need to be hidden
 connectors = {
