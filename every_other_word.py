@@ -5,7 +5,7 @@ A tool called imemorize (check http://www.imemorize2.org/) exists that is much
 more sophisticated, however I found that:
 
 - It is enough to hide every other word. You can get two complementary 
-versions, e.g.: if you're text is "a b a b a b", version 1 is "a _ a _ a _" and
+versions, e.g.: if youre text is "a b a b a b", version 1 is "a _ a _ a _" and
 version 2 is the complement "_ b _ b _ b"
 
 - It is not productive to hide common words such as "is", "the", "a"... The 
