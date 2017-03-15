@@ -1,15 +1,22 @@
-'''
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 13 11:23:29 2017
 
+@author: JohnJohn
+"""
+
+'''
 This code can be useful to memorize long texts, such as scriptures. 
 A tool called imemorize (check http://www.imemorize2.org/) exists that is much 
 more sophisticated, however I found that:
 
-- It is efficient enough to hide every other word. You can get two 
+- it is efficient enough to hide every other word. You can get two 
 complementary versions, e.g.: if you're text is "a b a b a b", version 1 is 
-"a _ a _ a _" and version 2 is the complement "_ b _ b _ b"
+"a _ a _ a _" and version 2 is the complement "_ b _ b _ b".
 
-- It is not productive to hide common words such as "is", "the", "a"... The 
-most important is to hide nouns, verbs and adjectives
+- it is not productive to hide common words such as "is", "the", "a"... The 
+most important is to hide nouns, verbs and adjectives.
 
 EXAMPLE:
     
@@ -18,6 +25,8 @@ You want to memorize the following passage:
 "It is not for him to pride himself who loveth his own country, but
 rather for him who loveth the whole world. The earth is but one country, and 
 mankind its citizens."
+
+The code will output:
 
 ==============
 VERSION 1 
