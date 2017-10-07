@@ -1,2 +1,1 @@
-# miscellaneous
-Various snippets of Python codes
+Various snippets of Python codes.
