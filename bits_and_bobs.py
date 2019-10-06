@@ -5,7 +5,7 @@ def create_intermediate_dir(dir_) :
         
 def create_dir(path):
     split_path = path.split(os.sep)
-    current_path = ''
+    current_path = '/'
     for part in split_path:
         if part != '':
             current_path += part + '/'
