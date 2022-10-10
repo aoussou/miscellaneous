@@ -20,3 +20,11 @@ def readText(file_path):
     f.close()
     
     return lines
+
+
+###############################################################################   
+# Access directory from home
+home_dir = Path.home()
+home_path = os.fspath(home_dir)
+
+full_dir_path = os.path.join(home_path, dir_path)
