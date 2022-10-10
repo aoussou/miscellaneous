@@ -24,6 +24,7 @@ def readText(file_path):
 
 ###############################################################################   
 # Access directory from home
+from pathlib import Path
 home_dir = Path.home()
 home_path = os.fspath(home_dir)
 
