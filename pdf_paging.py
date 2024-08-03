@@ -1,6 +1,6 @@
 str_ = ""
 
-n = 64 # must be a mutliple of 4
+n = 64 # must be a mutliple of 4 (if needed, add blank pages to the PDF)
 
 for i in range(1, n, 2):
 
